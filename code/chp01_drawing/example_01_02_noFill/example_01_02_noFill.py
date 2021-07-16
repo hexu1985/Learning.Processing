@@ -12,4 +12,5 @@ app.background(255);
 app.noFill();
 app.stroke(0);
 app.ellipse(60, 60, 100, 100);
+
 app.redraw();

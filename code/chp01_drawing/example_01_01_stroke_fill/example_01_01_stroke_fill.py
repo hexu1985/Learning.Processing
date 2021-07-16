@@ -10,4 +10,5 @@ app.background(255);
 app.stroke(0); 
 app.fill(150);
 app.rect(50, 50, 75, 100);
+
 app.redraw();
