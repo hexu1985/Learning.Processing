@@ -16,6 +16,7 @@ $ pip install wheel
 $ pip install processing_py-0.3.7-py3-none-any.whl
 ```
 
+
 #### 环境配置 Ubuntu 16.04
 
 Ubuntu 16.04上默认的python版本是3.5, processing-py依赖的最低版本为python3.6
@@ -49,8 +50,13 @@ $ sudo pip uninstall urllib3
 $ sudo pip install --upgrade urllib3
 ```
 
+### Processing Python Mode
+
+由于processing_py不支持MousePressed等回调事件,
+完整功能的Proccessing需要Python Mode方式实现, 扩展名为pyde.
 
 #### 参考文档
-
 - <https://py.processing.org/tutorials/>
+- <https://tabreturn.github.io/code/processing/python/2018/06/12/processing.py_in_ten_lessons-1.1-_intro_to_processing.html>
 - <https://pypi.org/project/processing-py/>
+- <https://perso.telecom-paristech.fr/eagan/class/igr204/lab-p5-python>
